@@ -1,0 +1,35 @@
+{
+  "name": "ax-slides",
+  "version": "1.0.0",
+  "description": "A simple tool to add visual aids to weekly meetings",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "googleapis": "^128.0.0",
+    "next": "^14.0.0",
+    "process": "^0.11.10",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "slides",
+    "meetings",
+    "google-slides",
+    "research"
+  ],
+  "author": "Anup Sathya",
+  "license": "MIT"
+}
