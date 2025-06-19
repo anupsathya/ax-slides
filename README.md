@@ -169,5 +169,3 @@ MIT — freely usable and modifiable. Please credit if forked.
   - `GOOGLE_SERVICE_ACCOUNT_KEY`
   - Slide sharing permissions
   - Vercel project ownership
-
----
