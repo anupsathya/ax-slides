@@ -57,7 +57,7 @@ Set these variables in Vercel or a local `.env.local` file:
 | `CURRENT_SLIDES_ID` | File ID of the "Lab Meeting – Current" Google Slides deck |
 | `ARCHIVE_SLIDES_ID` | File ID of the "Lab Meeting Archive" Google Slides deck |
 
-### 📝 How to Find a Slide ID:
+### 📝 How to Find a Slide ID
 
 From the URL:
 
@@ -123,11 +123,11 @@ curl -X POST http://localhost:3000/api/archive
 
 This project is designed to be modular. Future features might include:
 
-* ✅ **Slack Notifications** — Notify a lab channel after archiving
-* ✅ **Scheduled Archiving** — Use [Vercel Cron Jobs](https://vercel.com/docs/cron-jobs)
-* ✅ **Admin Access Control** — Add secret headers or user auth
-* ✅ **Slide Timestamping** — Add a title slide marking the archive date
-* ✅ **Error Logging** — Add Sentry, Logtail, or file-based logs
+- ✅ **Slack Notifications** — Notify a lab channel after archiving
+- ✅ **Scheduled Archiving** — Use [Vercel Cron Jobs](https://vercel.com/docs/cron-jobs)
+- ✅ **Admin Access Control** — Add secret headers or user auth
+- ✅ **Slide Timestamping** — Add a title slide marking the archive date
+- ✅ **Error Logging** — Add Sentry, Logtail, or file-based logs
 
 ---
 
